@@ -1,0 +1,27 @@
+.navbar-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.sidenavbar-container {
+  height: 100%;
+  width: 100%;
+  margin-top: 3%;
+}
+
+.nav-toolbar {
+  position: fixed;
+  z-index: 2;
+}
+
+.sideNav {
+  width: 200px;
+  height: 100%;
+}
+
+ 

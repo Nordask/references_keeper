@@ -1,0 +1,18 @@
+<div class="navbar-container">
+    <mat-toolbar color="primary" class="nav-toolbar">
+      <button mat-icon-button (click)="sideNav.toggle()"><mat-icon>menu</mat-icon></button>
+      <h1 class="example-app-name">References Keeper</h1>
+    </mat-toolbar>
+  
+    <mat-sidenav-container class="sidenavbar-container">
+      <mat-sidenav #sideNav class="sidenav" [mode]="side">
+        <mat-nav-list>
+          <a mat-list-item *ngFor="let navItem of navGroup">{{navItem}}</a>
+        </mat-nav-list>
+      </mat-sidenav>
+  
+      <mat-sidenav-content>
+        <p>content</p>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>
