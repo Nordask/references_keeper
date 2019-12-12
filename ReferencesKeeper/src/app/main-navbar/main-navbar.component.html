@@ -7,12 +7,13 @@
     <mat-sidenav-container class="sidenavbar-container">
       <mat-sidenav #sideNav class="sidenav" [mode]="side">
         <mat-nav-list>
-          <a mat-list-item *ngFor="let navItem of navGroup">{{navItem}}</a>
+          <a mat-list-item *ngFor="let navItem of navGroup" routerLink="{{navItem.route}}">{{navItem.section}}</a>
         </mat-nav-list>
       </mat-sidenav>
   
       <mat-sidenav-content>
         <p>content</p>
+        <router-outlet></router-outlet>
       </mat-sidenav-content>
     </mat-sidenav-container>
 </div>
