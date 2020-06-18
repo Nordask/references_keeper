@@ -11,7 +11,7 @@
   },
   "private": true,
   "dependencies": {
-    "angular": "^1.7.8",
+    "angular": "^1.8.0",
     "@angular/animations": "~8.0.0",
     "@angular/cdk": "~8.2.3",
     "@angular/common": "~8.0.0",
